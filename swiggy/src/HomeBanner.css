@@ -1,0 +1,44 @@
+.HBBody{
+    background-color: #171a29;
+    margin-top: 2cm;
+    height: 9cm;
+    width: 100%;
+
+    color: white;
+
+    /* padding: 1.3cm; */
+    /* padding-left: 3cm; */
+    /* padding-top: 3cm; */
+}
+
+.HBSubBody{
+    display: flex;
+    width: 30.3cm;
+    overflow: auto;
+
+    padding-top: 1cm;
+    padding-bottom: 1.3cm;
+    margin-left: 1.8cm;
+    padding-right: 1.8cm;
+}
+
+.HBSubBody::-webkit-scrollbar{
+    display: none;
+}
+
+.images{
+    height: 7cm;
+    width: 7cm;
+    /* transition: width 2s; */
+    transition: height 200ms, width 200ms;
+
+    margin-left: 30px;
+}
+
+.images:hover{
+    cursor: pointer;
+
+    /* box-shadow: -1px 1px 7px 5px rgba(255, 255, 255, 0.539); */
+    height: 7.4cm;
+    width: 7.4cm;
+}

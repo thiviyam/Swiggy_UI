@@ -1,0 +1,56 @@
+#UserAddressBody {
+    background-color: white;
+    text-align: left;
+
+    padding: 1cm;
+    height: 100%;
+    width: 10.4cm;
+    position: fixed;
+    top: 0;
+    left: 0px;
+    float: left;
+    z-index: 10001;
+    /* transition: width 3s; */
+
+    animation-name: flowleft;
+    animation-duration: 1s;
+}
+@keyframes flowleft{
+    50%{width: 11cm;}
+    100%{width: 10.4cm;}
+}
+
+#UserAddressSubBody{
+    background-color: #23232298;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+}
+
+.UserAddressbtn {
+    width: 3.2cm;
+    height: 1.1cm;
+    background-color: #fc8019;
+    border: none;
+    color: white;
+
+    margin-top: 1cm;
+    margin-left: 8px;
+}
+
+.UserAddCross{
+    float: right;
+    font-weight: 700;
+}
+
+.UserAddCross:hover{
+    cursor: pointer;
+}
+
+.UserAddTitle{
+    color: #fc8019;
+    text-shadow: 1px 2px 5px white;
+}

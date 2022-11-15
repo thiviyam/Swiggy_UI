@@ -1,0 +1,33 @@
+#userSNbody{
+    background-color: #dde2ebbb;
+    width: 7.3cm;
+}
+
+#userSNunorder{
+    padding: 0.6cm;
+    text-decoration: none;
+}
+
+.userSNlist{
+    padding: 25px;
+    text-decoration: none;
+}
+
+.userSNlink{
+    text-decoration: none;
+    padding: 0.5cm;
+
+    font-size: medium;
+    font-weight: 600;
+
+    color: #282c3fbb;
+}
+
+.userSNlink:hover{
+    color: #282c3ffc;
+}
+
+.userSNlink:focus{
+    color: #282c3ffc;
+    background-color: white;
+}

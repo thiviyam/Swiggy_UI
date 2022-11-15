@@ -1,0 +1,53 @@
+.profilebody{
+    background-color: #37718e;
+    margin-top: 1.9cm;
+}
+
+.profileheading{
+    display: inline-block;
+
+    color: white;
+
+    margin: 10px;
+    margin-left: 80px;
+    margin-right: 120px;
+    margin-top: 35px;
+}
+
+.miniinfo{
+    font-weight: 200;
+    margin-top: -15px;
+}
+
+.profileSpacing{
+    float: right;
+    margin-top: 2.1cm;
+}
+
+.profilelink{
+    text-decoration: none;
+    font-size: small;
+    font-weight: 700;
+
+    color: white;
+
+    border: solid 0.5px rgba(255, 255, 255, 0.631);
+    margin-top: 35px;
+
+    padding: 15px;
+}
+
+.profilelink:hover{
+    cursor: pointer;
+
+    background-color: white;
+    color: #37718e;
+}
+
+.profilesubbody{
+    background-color: white;
+    margin-left: 1cm;
+    margin-right: 1cm;
+
+    padding: 1cm;
+}

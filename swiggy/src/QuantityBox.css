@@ -1,0 +1,32 @@
+.quantityBox{
+    background-color: white;
+    padding: 4px;
+
+    color: #60b246;
+
+    font-size: smaller;
+    font-weight: 600;
+
+    border: solid 1px rgb(215, 214, 214);
+}
+
+.quantityBoxdec{
+    font-size: medium;
+}
+
+.quantityBoxvalue{
+    padding-left: 9px;
+}
+
+.quantityBoxinc{
+    padding-left: 9px;
+    font-size: medium;
+}
+
+.quantityBoxinc:hover{
+    cursor: pointer;
+}
+
+.quantityBoxdec:hover{
+    cursor: pointer;
+}

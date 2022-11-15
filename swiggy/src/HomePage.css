@@ -1,0 +1,122 @@
+
+.fronta{
+    display: inline;
+}
+
+#rest {
+    background-color: white;
+    margin-top: 3cm;
+    /* padding-left: 1cm; */
+}
+
+.swiggy{
+    display: inline;
+    color: #fc8019;
+    letter-spacing: 5px;
+
+    text-align: left;
+
+    position: relative;
+    top: 2cm;
+    left: 2.4cm;
+    font-weight: 800;
+}
+
+#homebody{
+    position: fixed;
+}
+
+.homeimg{
+    float: right;
+    width: 17cm;
+    height: 13.2cm;
+    position: relative;
+    top: -6.2cm;
+    right: 0cm;
+}
+
+.loginbtn {
+    color: black;
+}
+
+.loginbtn:hover {
+    color: #fc8019;
+}
+
+.signupbtn {
+    background-color: black;
+    color: white;
+}
+
+.hmbtn{
+    text-decoration: none;
+    padding: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 1cm;
+
+    font-weight: 700;
+    position: relative;
+    top: 2cm;
+    left: 8.4cm;
+}
+
+.changingtitle{
+    position: relative;
+    top: 4cm;
+    left: 2.4cm;
+
+    text-align: left;
+
+    font-weight: bolder;
+
+    color: rgba(0, 0, 0, 0.784);
+}
+
+.belowchangingtitle{
+    position: relative;
+    top: 3.7cm;
+    left: 2.4cm;
+    
+    font-weight: normal;
+
+    color: rgb(112, 112, 111);
+}
+
+.hmlocation{
+    position: relative;
+    top: 4.5cm;
+    left: 2.35cm;
+}
+
+.locationip{
+    
+    height: 1.5cm;
+    width: 11.5cm;
+
+    padding-left: 10px;
+
+    font-size: large;
+}
+
+.locationip:focus{
+    outline: none !important;
+    border: 1px solid #fc8019;
+}
+
+.locationbtn{
+    height: 1.65cm;
+    width: 3.7cm;
+    border: none;
+
+    background-color: #fc8019;
+    color: white;
+
+    font-weight: bold;
+    font-size: large;
+}
+
+#bbanner{
+    position: relative;
+    top: 7cm;
+}

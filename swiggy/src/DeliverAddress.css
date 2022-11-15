@@ -1,0 +1,164 @@
+/* .DeliverAddressBody{
+    background-color: white;
+
+    margin-right: 1cm;
+    margin-left: 2.3cm;
+
+    width: 19cm;
+    height: 12cm;
+} */
+
+.DeliverAddressInnerBody {
+    background-color: white;
+
+    margin-right: 1cm;
+    margin-left: 2.3cm;
+
+    width: 19cm;
+    height: 12cm;
+    padding: 20px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.DeliverAddressTitle{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(44, 44, 67);
+
+}
+
+.DeliverAddressSubTitle{
+    font-size: 15px;
+    font-weight: 500;
+
+    padding-top: 3px;
+
+    color: rgb(120, 119, 119);
+}
+
+.DeliverAddressAddBody{
+    display: inline-block;
+    overflow-y: auto;
+
+    width: 17.7cm;
+    height: 9.5cm;
+
+    margin-top: 18px;
+    margin-left: -13px;
+}
+
+.DeliverAddressAddBody::-webkit-scrollbar{
+    display: none;
+}
+
+.DeliverAddressAddSubBody{
+    border: 1px dotted rgb(220, 220, 220);
+
+    width: 7.5cm;
+
+    margin-top: 15px;
+    margin-left: 13px;
+
+    padding: 15px;
+
+    display: inline-block;
+}
+
+.DeliverAddressAddSubBody:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 3px 1px rgb(201, 201, 201);
+}
+
+.DeliverAddressemoji{
+    font-size: 25px;
+}
+
+.DeliverAddressAddDetails{
+    padding-left: 17px;
+}
+
+.DeliverAddressType{
+    font-weight: 700;
+    color: rgb(40, 40, 54);
+}
+
+.DeliverAddressAdd{
+    font-size: 12px;
+    color: rgb(130, 130, 130);
+
+    padding-top: 2px;
+}
+
+.DeliverAddressBtnArea{
+    margin-top: 59px;
+    /* position: absolute;
+    bottom: 0px;
+    left: 0px; */
+}
+
+.DeliverAddressBtn{
+    color: white;
+    font-weight: 600;
+    background-color: #60b246;
+    float: inline-end;
+
+    border: none;
+    padding: 12px;
+
+    /* position: absolute;
+        bottom: 0px;
+        left: 0px; */
+}
+
+.DeliverAddressBtn:hover{
+    cursor: pointer;
+}
+
+.newAddr{
+    border: 1px dotted rgb(208, 208, 208);
+}
+
+.cDeliverAddressInnerBody{
+    height: 3cm;
+}
+
+.cDeliverAddressAddBody{
+    margin-top: 30px;
+}
+
+.cDeliverAddressType{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.cDeliverAddressAdd{
+    font-size: 13px;
+    font-weight: 300;
+
+    color: rgb(173, 171, 171);
+}
+
+.tickmark{
+    color: white;
+    background-color: #60b246;
+    font-size: 12px;
+    padding: 3px;
+    padding-left: 4px;
+    padding-right: 4px;
+
+    border: #60b246;
+    border-radius: 100%;
+
+    margin-left: 40px;
+}
+
+.DeliverAddressChange{
+    font-size: 14px;
+    color: #fc8019;
+    margin-left: 350px;
+}
+
+.DeliverAddressChange:hover{
+    cursor: pointer;
+}

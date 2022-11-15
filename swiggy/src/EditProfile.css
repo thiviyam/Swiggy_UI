@@ -1,0 +1,126 @@
+#editBody{
+    background-color: white;
+    height: 100%;
+
+    padding: 1cm;
+    width: 31%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0px;
+    float: right;
+    z-index: 10001;
+}
+
+#EditProfileSubBody{
+    background-color: #23232298;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+}
+
+.cross{
+    font-weight: bold;
+}
+
+.editTitle{
+    font-weight: 800;
+    padding-left: 15px;
+
+    color: rgba(0, 0, 0, 0.756);
+}
+
+.editform{
+    padding: 5px;
+    padding-top: 1.4cm;
+}
+
+.edittable{
+    width: 11cm;
+}
+
+hr{
+    background-color: rgb(227, 225, 225);
+    border: 0.1px solid rgb(227, 225, 225);
+}
+
+
+.editLabel{
+    font-size: large;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.756);
+}
+
+.editdetail{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: rgb(125, 122, 122);
+}
+
+.editchange{
+    color: #fc8019;
+    font-size: small;
+    font-weight: 600;
+
+}
+
+.editchange:hover{
+    cursor: pointer;
+
+    color: rgba(0, 0, 0, 0.756);
+}
+
+.editpwd{
+    font-size: 40px;
+}
+
+.editip {
+    width: 9cm;
+    height: 1.5cm;
+
+    color: rgba(0, 0, 0, 0.756);
+
+    font-size: medium;
+    padding-left: 7px;
+    margin-top: 7px;
+
+    outline: none !important;
+    border-width: 1px;
+    border-style: dotted;
+    border-color: rgb(165, 164, 164);
+}
+
+.editbtn{
+
+    font-weight: bold;
+    margin-top: 18px;
+    width: 9.3cm;
+    height: 1.3cm;
+
+    background-color: #fc8019;
+    color: white;
+
+    border: none;
+}
+
+.udsc{
+        
+    font-size: small;
+    font-weight: 600;
+    color: rgb(165, 164, 164);
+}
+
+.udele{
+    font-size: smaller;
+    font-weight: 200;
+    color: rgb(165, 164, 164);
+
+}
+
+.updsc{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}

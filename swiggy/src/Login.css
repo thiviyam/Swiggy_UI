@@ -1,0 +1,32 @@
+.ip{
+    width: 10cm;
+    height: 1.5cm;
+    
+    font-size: small;
+    padding-left: 7px;
+    margin-top: 7px;
+
+    outline: none !important;
+    border-width: 1px;
+    border-style: dotted;
+    border-color: rgb(165, 164, 164);
+}
+
+.btn{
+    width: 10cm;
+    height: 1.1cm;
+    background-color: #fc8019;
+    border: none;
+    color: white;
+
+    margin-top: 1cm;
+}
+
+#table{
+    float: right;    
+}
+
+
+.cmd{
+    font-size: x-small;
+}

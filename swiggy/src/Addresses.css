@@ -1,0 +1,76 @@
+.addressBody{
+    position: absolute;
+    top: 6.7cm;
+    left: 11cm;
+
+    display: inline-block;
+}
+
+.addressEmpty{
+    color: rgb(133, 131, 131);
+    text-align: center;
+    padding-top: 1cm;
+    padding-left: 6cm;
+}
+
+.addressHalfBody{
+    padding-top: 1cm    
+}
+
+.addressHalfBody1{
+    display: inline-block;
+}
+
+.addressTitle{
+    color: rgb(44, 44, 69);
+}
+
+.addressBox{
+    color: rgb(44, 44, 69);
+    border: 1px solid rgba(187, 187, 187, 0.7);
+    display: inline-block;
+
+    padding: 20px;
+    margin: 6px;
+
+    width: 9cm;
+}
+
+.addressdetails{
+    padding-left: 11px;
+}
+
+.addresstype{
+    font-weight: 600;
+}
+
+.addresshouse{
+    font-size: 30px;
+    position: relative;
+    top: -10px;
+}
+
+.addressarea{
+    padding-top: 8px;
+    font-size: 12px;
+    font-weight: 100;
+
+    color: rgba(55, 55, 69, 0.887);
+}
+
+.addressfullbtn{
+    padding-top: 12px;
+    margin-left: -5px;
+}
+
+.addressbtn{
+    background-color: white;
+    border: none;
+
+    color: #fc8019;
+    font-weight: 600;
+}
+
+.addressbtndelete{
+    padding-left: 19px;
+}

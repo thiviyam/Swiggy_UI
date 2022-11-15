@@ -1,0 +1,40 @@
+.suggBox{
+    margin-left: 310px;
+    margin-right: 310px;
+
+    height: 11cm;
+    overflow-y: scroll;
+    padding: 10px;
+}
+
+.suggBox::-webkit-scrollbar{
+    display: none;
+}
+
+.suggimg{
+    height: 50px;
+    width: 70px;
+}
+
+.suggcol2{
+    padding-left: 17px;
+    padding-top: 13px;
+}
+
+.suggname{
+    font-size: medium;
+    color: rgb(24, 24, 44);
+}
+
+.suggtype{
+    font-size: x-small;
+    color: rgb(140, 139, 139);
+}
+
+.suggopt{
+    display: inline-flex;
+}
+
+.suggopt:hover{
+    cursor: pointer;
+}

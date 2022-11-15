@@ -1,0 +1,22 @@
+.favBody {
+    position: absolute;
+    top: 6.7cm;
+    left: 11cm;
+
+    z-index: 8;
+}
+
+.favSubBody{
+    display: inline-block;
+    margin-right: 39px;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 10.7cm;
+}
+
+.favHotels{
+    display: inline-block;
+
+    width: 7.9cm;
+}

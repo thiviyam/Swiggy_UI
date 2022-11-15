@@ -1,0 +1,60 @@
+.clearcartBody{
+    width: 12cm;
+
+    position: fixed;
+    top: 10cm;
+    left: 11.7cm;
+    background-color: white;
+
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+
+    box-shadow: 2px 4px 4px 9px rgb(218, 216, 216);
+}
+
+.clearcartTitle{
+    color: rgba(0, 0, 0, 0.762);
+}
+
+.clearcartwords{
+    color: rgb(164, 164, 164);
+    font-size: small;
+
+    font-weight: 10px;
+}
+
+.clearcartno,.clearcartyes{
+    text-decoration: none;
+    font-weight: 700;
+
+    font-size: 15px;
+
+    position: relative;
+    top: 0.8cm;
+}
+
+.clearcartno{
+    border: 2px solid #60b246;
+    color: #60b246;
+
+    padding: 7px;
+    padding-left: 93px;
+    padding-right: 93px;
+
+    float: left;
+}
+
+.clearcartyes{
+    background-color: #60b246;
+    color: white;
+
+    padding: 8px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    letter-spacing: normal;
+
+    float: right;
+}

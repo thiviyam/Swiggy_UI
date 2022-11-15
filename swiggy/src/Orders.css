@@ -1,0 +1,156 @@
+.orderbody{
+    position: absolute;
+    top: 6.7cm;
+    left: 11cm;   
+
+    z-index: 8;
+}
+
+.ordertitle{
+    font-size: 0.59cm;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.801);
+}
+
+.orderbox{
+    height: 11cm;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.orderbox::-webkit-scrollbar{
+    display: none;
+}
+
+.orderone{
+    border: 1px solid rgb(214, 214, 214);
+    width: 21cm;
+
+    padding: 25px;
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.orderimage{
+    height: 2.8cm;
+    width: 5cm;
+}
+
+.orderhotelName{
+    display: inline;
+
+    position: relative;
+    top: -2.5cm;
+    
+    padding-left: 25px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.774);
+}
+
+.orderhotelName:hover{
+    cursor: pointer;
+    color: #fc8019;
+}
+
+.ordercusine{
+    display: inline;
+
+    position: relative;
+    top: -2.5cm;
+    left: 5.8cm;
+
+    font-size: x-small;
+    color: rgb(137, 137, 137);    
+}
+
+.orderratings{
+    position: relative;
+    top: -2.5cm;
+    left: 5.8cm;
+    
+    font-size: x-small;
+    color: rgb(137, 137, 137);
+}
+
+.orderlink{
+    font-weight: 700;
+    font-size: small;
+    color: #fc8019;
+
+    display: inline;
+
+    position: relative;
+    top: -1.5cm;
+    left: 5.8cm;
+
+    text-decoration: none;
+}
+
+.orderlink:hover{
+    color: black;
+}
+
+.orderline{
+    position: relative;
+    top: -1.3cm;
+
+    border: 0.1px dotted rgb(249, 248, 248);
+    /* left: 5.7cm; */
+}
+
+.row1:hover{
+    cursor: pointer;
+}
+
+.row2{
+    margin-top: -50px;    
+}
+
+.orderlist{
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    font-size: small;
+    color: rgb(65, 65, 65);
+}
+
+.orderre{
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    background-color: #fc8019;
+    border: none;
+    color: white;
+}
+
+.orderhelp{
+    margin-left: 0.5cm;
+
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    color: #fc8019;
+    border: #fc8019 solid 1px;
+    background-color: white;
+}
+
+.orderhelp:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 2px 2px rgb(221, 217, 217);
+}
+
+.orderre:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 2px 2px rgb(221, 217, 217);
+}
+
+.ordertotal{
+    float: right;
+    font-size: small;
+    color: rgb(128, 127, 127);
+
+    font-weight: 100;
+}

@@ -1,0 +1,202 @@
+/* .row1{
+    display: block;
+} */
+.hotels{
+    background-color: rgba(237, 237, 237, 0.447);
+}
+
+.stickyNav2 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    background-color: rgb(237, 237, 237);
+
+    z-index: 2000;
+}
+
+.hotelSecondNavBar{
+
+    display: flex;
+    border-bottom: 1px solid rgba(205, 203, 203, 0.616);
+
+    margin-right: 70px;
+    margin-left: 70px;
+
+    padding-top: 35px;
+    padding-bottom: 0px;
+
+}
+
+.HSNBnOfRes{
+    font-size: 25px;
+    font-weight: 600;
+    color: #282c3f;
+
+    position: relative;
+    bottom: -8px;
+}
+
+.HSNBListArea{
+    position: relative;
+    right: -265px;
+
+    padding-bottom: 0px;
+}
+
+.HSNBul{
+    display: flex;
+    float: right;
+}
+
+.HSNlist{
+    display: inline;
+    margin-right: 40px;
+    margin-bottom: 0px;
+
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(117, 117, 117);
+
+    padding-bottom: 1px;
+}
+
+.HSNlist:hover{
+    cursor: pointer;
+    color: rgb(63, 63, 72);
+}
+
+.HSNlist:active{
+    border-bottom: 1px solid rgb(63, 63, 72);
+}
+
+.HSNBfilter{
+    font-weight: 600;
+    color: #282c3f;
+}
+
+.hotelAll{
+    /* display: flex; */
+    display: inline-block;
+    justify-content: space-between;
+
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-left: 65px;
+    overflow-x: scroll;
+
+    /* margin-top: 2cm; */
+    z-index: 51;
+}
+
+.hotelAll::-webkit-scrollbar{
+    display: none;
+}
+
+.hotelBox{
+    display: inline-block;
+    padding: 20px;
+
+    height: 9.3cm;
+}
+
+.hotelBox:hover{
+    cursor: pointer;
+    border: 1px rgb(212, 212, 212) solid;
+    box-shadow: 4px 3px 4px 1px rgba(255, 255, 255, 0.64);
+}
+
+.hotelimage{
+    height: 4.6cm;
+    width: 7.4cm;
+}
+
+.hotelcusine{
+    color: rgb(115, 115, 115);
+    position: relative;
+    top: -13px;
+
+    font-size: small;
+    font-weight: 400;
+
+    z-index: 0;
+}
+
+.hotelBoxRatingArea{
+    display: flex;
+}
+
+.hotelDot{
+    position: relative;
+    top: -1px;
+    left: 33px;
+
+    color: #282c3fd6;
+
+    font-size: 20px;
+    width: 30px;
+}
+
+.hotelServing{
+    position: relative;
+    top: 9px;
+    left: 33px;
+
+    color: #282c3fd6;
+
+    font-size: 11px;
+
+    letter-spacing: normal;
+}
+
+.hotelDistance{
+    position: relative;
+    right: 33px;
+}
+
+.hotelratings{
+    position: relative;
+    top: -18px;
+    width: 30px;
+
+    padding-left: 5px;
+    padding-bottom: 2px;
+
+    color: white;
+}
+
+.hotelratingsbad{
+background-color: #db7c38;
+}
+
+.hotelratingsgood{
+    background-color: #48c479;
+}
+
+.quickViewArea{
+    margin-top: -5px;
+    position: absolute;
+    display: none;
+}
+
+.hotelQuickView{
+    color: rgb(73, 167, 239);
+
+    margin-top: 12px;
+    margin-left: 100px;
+
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.quickViewAreaDivisionLine{
+    width: 7cm;
+}
+
+.quickViewAreaHover{
+    position: relative;
+    top: 4cm;
+    left: 2cm;
+
+    z-index: 50;
+}

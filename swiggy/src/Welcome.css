@@ -1,0 +1,208 @@
+#welcome{
+    background-color: white;
+    /* margin-top: 1cm; */
+
+    padding: 21px;
+    position: fixed;
+    width: 100%;
+
+    z-index: 1999;
+}
+
+#welcomeNav{
+  display: inline;
+  background-color: white;
+}
+
+#welcomeSwiggy{
+    /* display: inline; */
+    padding-left: 1px;
+    padding-right: 5px;
+
+    font-size: large;
+    font-weight: 800;
+
+    color: #fc8019;
+
+    letter-spacing: 3px;
+
+    text-decoration: none;
+}
+
+#welcomeSwiggy:hover{
+
+    margin-top: -1cm;
+    margin-bottom: -2cm;
+    animation-name: newtry;
+    animation-duration: 3s;
+}
+@keyframes newtry{
+    0% {font-size: large;}
+    25% {font-size: small;}
+    50% {font-size: xx-small;}
+    75% {font-size: x-large;;}
+    100% {font-size: large;}
+}
+
+.welcomeaddresslnk{
+    text-decoration: none;
+}
+
+.welcomeaddress0{
+    width: 1cm;
+    overflow: hidden;
+}
+
+.welcomeaddress{
+    color: rgb(50, 64, 82);
+    padding-bottom: 2px;
+
+    margin-left: -40px;
+
+    font-size: smaller;
+    text-decoration: none;
+
+    border-bottom: 2px solid rgb(50, 64, 82);
+    font-weight: 600;
+    letter-spacing: normal;
+}
+
+.welcomeaddress:hover{
+    color: #fc8019;
+    border-bottom: 2px solid #fc8019;
+}
+
+.welcomeaddressno{
+    text-decoration: none;
+    color: rgb(186, 186, 186);
+
+    border-bottom: none;
+
+    font-size: small;
+}
+
+.welcomeaddressno:hover{
+    color: rgb(140, 140, 140);
+}
+
+.welcomeaddressdownarrow{
+    color: #fc8019;
+    font-size: 24px;
+
+    position: relative;
+    top: -5px;
+    left: 3px;
+}
+
+.welcomelist{
+    display: inline;
+    padding: 26px;
+    text-decoration: none;
+}
+
+.welcomeSearch {
+    padding-left: 3.5cm;
+}
+
+.helpemoji{
+    font-size: 25px;
+}
+
+.welcomelink{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.691);
+
+    font-weight: bold;
+}
+
+.welcomelink:focus{
+    color: #fc8019;
+}
+
+.welcomelink:hover{
+    color: #fc8019;
+}
+
+.floatRightNavbar{
+    float: right;
+    margin-right: 50px;
+}
+
+.welcomelink:active{
+    color: #fc8019;
+}
+#dropdownfix{
+    position: fixed;
+    right: 3.3cm;
+    top: 1.47cm;
+}
+
+#changecolorcartfull{
+    color: rgb(79, 206, 79);
+}
+
+#changecolorcartfull:hover{
+    color: #fc8019;
+}
+
+.welcomecartpage{
+    margin-left: 490px;
+}
+
+.dropdownfixcartpage{
+    position: fixed;
+    right: 2cm;
+    top: 1.47cm;
+}
+
+#welcomecartlengthh:hover{
+    color: #fc8019;
+}
+
+#welcomecartlength{
+    padding: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    
+    border-radius: 100%;
+    background-color: #60b246;
+    color: white;
+}
+
+#welcomecartlength:hover{
+    background-color: #fc8019;
+    color: white;
+}
+
+.welcomeaddAddressSpace{
+    padding-right: 4.8cm;
+}
+
+.welcomesecure{
+    font-weight: 700;
+    font-size: small;
+
+    color: rgba(39, 51, 65, 0.932);
+
+    position: relative;
+    left: -1cm;
+}
+
+.carthoverBody{
+    position: fixed;
+    left: 26.5cm;
+    top: 2cm;
+    right: 1cm;
+
+    transition: width 5s;
+
+    background-color: white;
+    color: rgb(174, 173, 173);
+
+    padding: 38px;
+
+    border-top: #fc8019 2px solid;
+    box-shadow: 1px 4px 8px 4px rgb(189, 188, 188);
+
+    z-index: 1;
+}

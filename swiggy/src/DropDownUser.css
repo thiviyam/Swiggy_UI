@@ -1,0 +1,40 @@
+#userDD{
+    margin-top: 0.5cm;
+    margin-left: 29cm;
+    margin-right: 0cm;
+
+    width: 5cm;
+
+    padding: 10px;
+
+    background-color: white;
+
+    border-top: solid 2px #fc8019;
+    box-shadow: 3px 3px 3px 3px rgb(166, 163, 163);
+
+    position: relative;
+    z-index: 999;
+
+}
+
+.DDlist{
+    text-decoration: none;
+    padding: 7px;
+}
+
+.DDoption{
+    text-decoration: none;
+    padding: 7px;
+    
+}
+
+.DDlink{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.734);
+
+    font-weight: 400;
+}
+
+.DDlink:hover{
+    font-weight: bold;
+}

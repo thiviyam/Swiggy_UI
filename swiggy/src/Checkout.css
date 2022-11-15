@@ -1,0 +1,14 @@
+.checkoutbody{
+    background-color: #e9ecee;
+
+    padding: 1cm;
+    padding-right: 2cm;
+
+    margin-top: 2cm;
+
+    overflow: scroll;
+}
+
+.checkoutbodypartion{
+    display: flex;
+}
